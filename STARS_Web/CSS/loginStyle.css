@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Public Sans';
+    src: url("../Font/PublicSans-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Public Sans Italic';
+    src: url("../Font/PublicSans-Italic-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("../Font/Inter-VariableFont_opsz\,wght.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Public Sans", "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #D5FAFA;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+header img {
+    height: 50px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.login-container img {
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.login-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: left;
+}
+
+.login-box h2 {
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    font-family: 'Public Sans';
+}
+
+.login-box label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login-box input[type="radio"] {
+    margin-right: 8px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.login-box button {
+    background-color: #3D4CBF;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+}
+
+.login-box button:hover {
+    background-color: #3D4CBF;
+}
+
+footer {
+    background-color: #312783;
+    color: #ffffff;
+    padding: 20px 10px;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+footer .footer-bottom {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 5px;
+    font-size: 12px;
+    font-family: "Inter";
+}
+
+footer .footer-content .footer-section:not(:last-child) {
+    border-right: 2px solid #ffffff;
+}
